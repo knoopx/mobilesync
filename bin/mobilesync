@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby -lrubygems
+
+require 'bundler/setup'
+require 'thor'
+require 'mobilesync/cli'
+
+MobileSync::CLI.start
